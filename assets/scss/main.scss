@@ -556,6 +556,7 @@ body {
       p {
         &:hover {
           color: #FFFFFF;
+          cursor: pointer;
         }
 
         &:active {
@@ -587,6 +588,8 @@ body {
       }
 
       .l-news-text {
+        border-bottom: 1px solid #D9D9D9;
+        padding-bottom: 25px;
         .img-new-host-most-read {
           margin-right: 20px;
           float: left;
@@ -802,9 +805,15 @@ body {
   .video-hot {
     margin-top: 15px;
 
-    video {
+    img {
       width: 100%;
-      height: 445px;
+      height: auto;
+    }
+    .time-video {
+      img {
+        width: auto !important;
+        height: auto !important;
+      }
     }
 
     h2 {
@@ -836,9 +845,9 @@ body {
     display: flex;
     margin-top: 15px;
 
-    video {
+    img {
       width: 160px;
-      height: 90px;
+      height: auto;
     }
 
     p {
@@ -948,18 +957,18 @@ body {
 
   .new-item-real-estate-right {
     background: #FFFFFF;
-    border: 1px solid #D9D9D9;
+    border: 2px dotted #D9D9D9;
     padding: 0px 20px 15px 20px;
 
     .show-item-real-estate-right {
+     display: flex;
       margin-top: 15px;
-
-      img {
+      .thumb-item-real-estate-right {
         width: 75px;
         height: 75px;
-        object-fit: cover;
-        float: left;
-        margin-right: 10px;
+        //object-fit: cover;
+        //float: left;
+        //margin-right: 10px;
       }
 
       p {
@@ -967,7 +976,7 @@ body {
         font-weight: 700;
         font-size: 13px;
         line-height: 22px;
-
+        margin-left: 10px;
         a {
           &:hover {
             text-decoration: none;
@@ -1216,7 +1225,7 @@ body {
 
   .new-item-science-technology-right {
     background: #FFFFFF;
-    border: 1px solid #D9D9D9;
+    border: 2px dotted #D9D9D9;
     padding: 15px 15px;
 
     img {
@@ -1235,15 +1244,12 @@ body {
     }
 
     .show-item-science-technology-right {
+     display: flex;
       margin-top: 15px;
-
       img {
         width: 100px;
         height: 75px;
         object-fit: cover;
-        float: left;
-        margin-right: 10px;
-        border-radius: 3px;
       }
 
       p {
@@ -1345,7 +1351,7 @@ body {
 
   .new-item-naitional-defense-right {
     background: #FFFFFF;
-    border: 1px solid #D9D9D9;
+    border: 2px dotted #D9D9D9;
     padding: 15px 15px;
 
     img {
@@ -1365,13 +1371,11 @@ body {
 
     .show-item-naitional-defense-right {
       margin-top: 15px;
-
+        display: flex;
       img {
         width: 100px;
         height: 75px;
         object-fit: cover;
-        float: left;
-        margin-right: 10px;
         border-radius: 3px;
       }
 
@@ -1534,7 +1538,7 @@ body {
 
   .new-item-district-country-right {
     background: #FFFFFF;
-    border: 1px solid #D9D9D9;
+    border: 2px dotted #D9D9D9;
     padding: 15px 15px;
 
     img {
@@ -1555,13 +1559,10 @@ body {
 
     .show-item-district-country-right {
       margin-top: 15px;
-
+      display: flex;
       img {
         width: 100px;
         height: 75px;
-        object-fit: cover;
-        float: left;
-        margin-right: 10px;
         border-radius: 3px;
       }
 
@@ -1638,12 +1639,12 @@ body {
     line-height: 22px;
 
     ul {
+      height: 130px;
       margin-top: 10px;
       padding: 0px;
 
       li {
         list-style-type: none;
-
         .bold-category-footer {
           font-family: Merriweather;
           color: #000;
@@ -1724,7 +1725,8 @@ body {
 
   .footer-end {
     margin-top: 30px;
-
+    padding-top: 15px;
+   border-top: 2px solid #F3D66E;
     .logo-footer {
       display: flex;
 
@@ -1787,3 +1789,4 @@ body {
 
 }
 
+//Reponsive
