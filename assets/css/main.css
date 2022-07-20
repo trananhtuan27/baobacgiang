@@ -1145,13 +1145,17 @@ body {
         width: auto;
         border-right: 1px solid #7C7C7C;
         margin-right: 5px; }
-      .section-footer .footer-end .logo-footer h2 {
+      .section-footer .footer-end .logo-footer p {
+        font-family: Merriweather;
         padding-top: 15px;
         font-style: normal;
         font-weight: 700;
         font-size: 34px;
-        line-height: 36px;
-        color: #FF0000; }
+        line-height: 36px; }
+        .section-footer .footer-end .logo-footer p a {
+          color: #FF0000; }
+          .section-footer .footer-end .logo-footer p a:hover {
+            text-decoration: none; }
     .section-footer .footer-end .terms-of-service-footer {
       height: 100%;
       display: flex;
