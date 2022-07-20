@@ -1736,12 +1736,19 @@ body {
       }
 
       h2 {
+        a {
+        &:hover {
+          text-decoration: none;
+        }
+          color: #FF0000;
+        }
+        font-family: Merriweather;
         padding-top: 15px;
         font-style: normal;
         font-weight: 700;
         font-size: 34px;
         line-height: 36px;
-        color: #FF0000;
+
       }
 
     }
