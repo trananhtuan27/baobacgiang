@@ -87,6 +87,12 @@ body {
 .color-white {
   color: #FFFFFF !important; }
 
+.row-custom {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
 .section_header_first {
   background: #FAFAFA;
   border-bottom: 2px solid #E8E8E8;
@@ -622,7 +628,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-between; }
     .section-media .content-media .content-media-left {
-      display: flex; }
+      display: flex;
+      flex-wrap: wrap; }
       .section-media .content-media .content-media-left .title-media {
         padding-top: 7px; }
         .section-media .content-media .content-media-left .title-media span {
@@ -642,7 +649,8 @@ body {
       color: #000000;
       padding-top: 10px; }
       .section-media .content-media .list-media ul {
-        display: flex; }
+        display: flex;
+        flex-wrap: wrap; }
         .section-media .content-media .list-media ul li {
           list-style-type: none;
           margin-left: 10px; }
@@ -665,15 +673,17 @@ body {
     .section-media .video-hot .time-video img {
       width: auto !important;
       height: auto !important; }
-    .section-media .video-hot h2 a {
+    .section-media .video-hot p {
+      margin-top: 10px;
       font-style: normal;
       font-weight: 700;
       font-size: 15px;
-      line-height: 22px;
-      color: #222222; }
-      .section-media .video-hot h2 a:hover {
-        text-decoration: none;
+      line-height: 22px; }
+      .section-media .video-hot p a {
         color: #222222; }
+        .section-media .video-hot p a:hover {
+          text-decoration: none;
+          color: #222222; }
     .section-media .video-hot span {
       font-style: normal;
       font-weight: 400;
@@ -723,15 +733,15 @@ body {
       font-size: 15px;
       line-height: 22px;
       color: #222222; }
-      .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left h2 {
+      .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left p {
         font-family: Merriweather;
         font-style: normal;
         font-weight: 700;
         font-size: 15px;
         line-height: 22px; }
-        .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left h2 a {
+        .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left p a {
           color: #222222; }
-          .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left h2 a:hover {
+          .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left p a:hover {
             text-decoration: none;
             color: #222222; }
     .section-news-real-estate .item-news-real-estate .content-news-real-estate .time-news-real-estate {
@@ -883,16 +893,16 @@ body {
   .section-science-technology .item-news-science-technology .thumb-science-technology {
     width: 100%;
     object-fit: cover; }
-  .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left h2 {
+  .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left p {
     font-family: Merriweather;
     margin-top: 10px;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 22px; }
-    .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left h2 a {
+    .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left p a {
       color: #222222; }
-      .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left h2 a:hover {
+      .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left p a:hover {
         text-decoration: none;
         color: #222222; }
   .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left .descript-item-science-technology {
@@ -956,8 +966,7 @@ body {
             text-decoration: none; }
 
 .section-naitional-defense {
-  background: #FFFFFF;
-  padding: 16px; }
+  background: #FFFFFF; }
   .section-naitional-defense .title-news-naitional-defense h2 {
     font-style: normal;
     font-weight: 700;
@@ -969,7 +978,7 @@ body {
   .section-naitional-defense .item-news-naitional-defense .thumb-naitional-defense {
     width: 100%;
     object-fit: cover; }
-  .section-naitional-defense .item-news-naitional-defense .content-news-naitional-defense .new-item-naitional-defense-left h2 {
+  .section-naitional-defense .item-news-naitional-defense .content-news-naitional-defense .new-item-naitional-defense-left p {
     margin-top: 10px;
     font-style: normal;
     font-weight: 700;
@@ -1373,30 +1382,6 @@ body {
   flex: 0 0 20%;
   max-width: 20%; }
 
-@media (min-width: 540px) {
-  .col-sm-2dot4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%; } }
-@media (min-width: 720px) {
-  .col-md-2dot4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%; } }
-@media (min-width: 960px) {
-  .col-lg-2dot4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%; } }
-@media (min-width: 1140px) {
-  .col-xl-2dot4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%; } }
 @media (max-width: 1199px) {
   .content-list-category-all-pc {
     display: none; }
@@ -1419,7 +1404,7 @@ body {
       width: 100%;
       height: auto; }
   .section-sapo-news .icon-thumb-item-sapo-news-right {
-    height: 120px !important; }
+    height: 59% !important; }
   .section-sapo-news .icon-video-item-sapo-news-right {
     height: 120px !important; }
 
@@ -1456,5 +1441,50 @@ body {
     margin-right: 0px; }
   .section-footer .line-left-footer .ads-guest-post .guest-post-contact-footer {
     display: block; } }
+@media (max-width: 767px) {
+  .ads-new {
+    margin-top: 20px; }
+
+  .section-science-technology .new-item-science-technology-right {
+    margin-top: 15px; }
+
+  .section-naitional-defense .new-item-naitional-defense-right {
+    margin-top: 15px; }
+
+  .section-line-config {
+    margin-top: 20px; }
+
+  .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left p {
+    margin-top: 10px; }
+
+  .new-item-real-estate-right {
+    margin-top: 10px; }
+
+  .title-wapper {
+    margin-top: 15px; }
+
+  .section-science-technology {
+    padding: 20px 0px 0px 0px; }
+
+  .title-news-naitional-defense, .new-item-district-country-right {
+    margin-top: 20px; }
+
+  .terms-of-service p {
+    text-align: start !important;
+    margin-top: 10px; } }
+@media (max-width: 600px) {
+  .section-hot-news .hot-news .content-host-news .title-name-new-host .line-news-host {
+    display: none; }
+
+  .row-custom {
+    display: block; }
+
+  .col-2dot4 {
+    max-width: 100%; }
+
+  .section-media .content-media .list-media ul {
+    padding: 0px; }
+    .section-media .content-media .list-media ul li {
+      margin-top: 5px; } }
 
 /*# sourceMappingURL=main.css.map */

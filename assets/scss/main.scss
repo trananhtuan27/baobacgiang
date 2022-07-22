@@ -106,6 +106,12 @@ body {
 .color-white {
   color: #FFFFFF !important;
 }
+.row-custom {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 
 .section_header_first {
   background: #FAFAFA;
@@ -934,7 +940,7 @@ body {
 
     .content-media-left {
       display: flex;
-
+      flex-wrap: wrap;
       .title-media {
         padding-top: 7px;
 
@@ -961,7 +967,7 @@ body {
 
       ul {
         display: flex;
-
+       flex-wrap: wrap;
         li {
           list-style-type: none;
           margin-left: 10px;
@@ -1002,17 +1008,17 @@ body {
       }
     }
 
-    h2 {
+    p {
+      margin-top: 10px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 22px;
       a {
         &:hover {
           text-decoration: none;
           color: #222222;
         }
-
-        font-style: normal;
-        font-weight: 700;
-        font-size: 15px;
-        line-height: 22px;
         color: #222222;
       }
     }
@@ -1093,7 +1099,7 @@ body {
         line-height: 22px;
         color: #222222;
 
-        h2 {
+        p {
           font-family: Merriweather;
           font-style: normal;
           font-weight: 700;
@@ -1105,7 +1111,6 @@ body {
               text-decoration: none;
               color: #222222;
             }
-
             color: #222222;
           }
 
@@ -1349,7 +1354,7 @@ body {
 
     .content-news-science-technology {
       .new-item-science-technology-left {
-        h2 {
+        p {
           font-family: Merriweather;
           margin-top: 10px;
           font-style: normal;
@@ -1464,8 +1469,6 @@ body {
 
 .section-naitional-defense {
   background: #FFFFFF;
-  padding: 16px;
-
   .title-news-naitional-defense {
     h2 {
       font-style: normal;
@@ -1486,7 +1489,7 @@ body {
 
     .content-news-naitional-defense {
       .new-item-naitional-defense-left {
-        h2 {
+        p {
           margin-top: 10px;
           font-style: normal;
           font-weight: 700;
@@ -2104,41 +2107,7 @@ body {
   max-width: 20%;
 }
 
-@media (min-width: 540px) {
-  .col-sm-2dot4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
-  }
-}
 
-@media (min-width: 720px) {
-  .col-md-2dot4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
-  }
-}
-
-@media (min-width: 960px) {
-  .col-lg-2dot4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
-  }
-}
-
-@media (min-width: 1140px) {
-  .col-xl-2dot4 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
-  }
-}
 
 @media (max-width: 1199px) {
   .content-list-category-all-pc {
@@ -2190,7 +2159,7 @@ body {
       }
     }
    .icon-thumb-item-sapo-news-right {
-     height: 120px !important;
+     height: 59% !important;
    }
     .icon-video-item-sapo-news-right {
       height: 120px !important;
@@ -2270,4 +2239,82 @@ body {
     }
 
   }
+}
+@media (max-width: 767px) {
+ .ads-new {
+   margin-top: 20px;
+ }
+  .section-science-technology {
+    .new-item-science-technology-right {
+      margin-top: 15px;
+    }
+  }
+  .section-naitional-defense {
+    .new-item-naitional-defense-right {
+      margin-top: 15px;
+    }
+  }
+  .section-line-config {
+    margin-top: 20px;
+  }
+  .section-news-real-estate {
+    .item-news-real-estate {
+      .content-news-real-estate {
+        .new-item-real-estate-left {
+          p {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+  .new-item-real-estate-right {
+    margin-top: 10px;
+  }
+  .title-wapper {
+    margin-top: 15px;
+  }
+  .section-science-technology {
+    padding: 20px 0px 0px 0px;
+  }
+  .title-news-naitional-defense , .new-item-district-country-right {
+    margin-top: 20px;
+  }
+  .terms-of-service p {
+    text-align: start !important;
+    margin-top: 10px;
+  }
+}
+@media(max-width: 600px) {
+  .section-hot-news {
+    .hot-news {
+      .content-host-news {
+        .title-name-new-host {
+          .line-news-host {
+           display: none;
+          }
+        }
+
+      }
+    }
+  }
+  .row-custom {
+    display: block;
+  }
+  .col-2dot4 {
+    max-width: 100%;
+  }
+  .section-media {
+    .content-media {
+      .list-media {
+        ul {
+          padding: 0px;
+          li {
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+
 }
