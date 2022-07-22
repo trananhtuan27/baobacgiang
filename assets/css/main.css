@@ -199,16 +199,18 @@ body {
         font-weight: bold;
         text-align: left;
         z-index: 201; }
-    .section_header_wapper .header_wapper .header_wapper_right .language a, .section_header_wapper .header_wapper .header_wapper_right .language span, .section_header_wapper .header_wapper .header_wapper_right .parliamentary a, .section_header_wapper .header_wapper .header_wapper_right .parliamentary span {
-      font-family: Merriweather;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 11px;
-      line-height: 22px;
-      letter-spacing: 0.25px;
-      color: #000000; }
-      .section_header_wapper .header_wapper .header_wapper_right .language a:hover, .section_header_wapper .header_wapper .header_wapper_right .language span:hover, .section_header_wapper .header_wapper .header_wapper_right .parliamentary a:hover, .section_header_wapper .header_wapper .header_wapper_right .parliamentary span:hover {
-        color: #DA0000; }
+    .section_header_wapper .header_wapper .header_wapper_right .language, .section_header_wapper .header_wapper .header_wapper_right .parliamentary {
+      text-align: end; }
+      .section_header_wapper .header_wapper .header_wapper_right .language a, .section_header_wapper .header_wapper .header_wapper_right .language span, .section_header_wapper .header_wapper .header_wapper_right .parliamentary a, .section_header_wapper .header_wapper .header_wapper_right .parliamentary span {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 22px;
+        letter-spacing: 0.25px;
+        color: #000000; }
+        .section_header_wapper .header_wapper .header_wapper_right .language a:hover, .section_header_wapper .header_wapper .header_wapper_right .language span:hover, .section_header_wapper .header_wapper .header_wapper_right .parliamentary a:hover, .section_header_wapper .header_wapper .header_wapper_right .parliamentary span:hover {
+          color: #DA0000; }
     .section_header_wapper .header_wapper .header_wapper_right .parliamentary {
       height: 75%;
       align-items: end;
@@ -1471,11 +1473,11 @@ body {
 
   .terms-of-service p {
     text-align: start !important;
-    margin-top: 10px; } }
-@media (max-width: 600px) {
-  .section-hot-news .hot-news .content-host-news .title-name-new-host .line-news-host {
-    display: none; }
+    margin-top: 10px; }
 
+  .section-hot-news .hot-news .content-host-news .title-name-new-host .line-news-host {
+    display: none; } }
+@media (max-width: 600px) {
   .row-custom {
     display: block; }
 

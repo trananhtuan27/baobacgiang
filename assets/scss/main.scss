@@ -256,6 +256,7 @@ body {
 
     .header_wapper_right {
       .language, .parliamentary {
+        text-align: end;
         a, span {
           &:hover {
             color: #DA0000;
@@ -2284,20 +2285,20 @@ body {
     text-align: start !important;
     margin-top: 10px;
   }
-}
-@media(max-width: 600px) {
   .section-hot-news {
     .hot-news {
       .content-host-news {
         .title-name-new-host {
           .line-news-host {
-           display: none;
+            display: none;
           }
         }
 
       }
     }
   }
+}
+@media(max-width: 600px) {
   .row-custom {
     display: block;
   }
