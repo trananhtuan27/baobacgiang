@@ -2648,6 +2648,8 @@ body {
         flex-wrap: wrap;
 
         .icon-tag {
+          margin-top: 10px;
+
           span {
             font-family: Merriweather;
             font-style: normal;
@@ -2663,9 +2665,10 @@ body {
           padding: 0;
           list-style: none;
           display: flex;
+          flex-wrap: wrap;
 
           li {
-            margin-left: 10px;
+            margin: 10px 0px 0px 10px;
 
             a {
               &:hover {
@@ -2709,7 +2712,6 @@ body {
 
         .name-email {
           display: flex;
-          flex-wrap: wrap;
 
           input {
             margin-top: 15px;
@@ -2759,11 +2761,14 @@ body {
       }
 
     }
+
     .news-interested {
       display: flex;
+
       .icon-news-interested {
         margin-right: 10px;
       }
+
       h2 {
         font-family: Merriweather;
         font-style: normal;
@@ -2776,31 +2781,37 @@ body {
       }
 
     }
+
     .content-news-interested {
       .item-news-interested {
         margin-top: 20px;
+
         a {
           img {
             width: 100%;
             height: auto;
           }
         }
+
         p {
-          margin-top: 10px;
+          margin-top: 15px;
           font-family: Merriweather;
           font-style: normal;
           font-weight: 700;
           font-size: 13px;
           line-height: 22px;
-         a {
-           &:hover {
-             text-decoration: none;
-           }
-           color: #222222;
-         }
+
+          a {
+            &:hover {
+              text-decoration: none;
+            }
+
+            color: #222222;
+          }
         }
       }
     }
+
     .category-detail {
       .item-category-detail {
         background: #FFFFFF;
@@ -2938,13 +2949,15 @@ body {
         }
       }
 
-      //.banner-ads {
-      //a {
-      //  img {
-      //    width: 100%;
-      //  }
-      //}
-      //}
+      .banner-ads-detail-page {
+        a {
+          img {
+            margin-top: 20px;
+            height: auto;
+            width: 100%;
+          }
+        }
+      }
     }
   }
 
@@ -2971,9 +2984,52 @@ body {
       }
     }
   }
+  .name-email {
+    input {
+      width: 100px;
+    }
+  }
 }
 
 @media (max-width: 991px) {
+  .section-detail-sapo-news {
+    .detail-content-page {
+      .category-detail {
+        .item-category-detail {
+          .show-item-right {
+            display: block;
+
+            img {
+              width: 100%;
+              height: auto;
+              float: none;
+            }
+
+            p {
+              margin-top: 15px;
+            }
+          }
+        }
+
+        .item-category-detail-page {
+          .item-show-small {
+            a {
+              img {
+                width: 100%;
+                float: none;
+                height: auto;
+              }
+            }
+
+            p {
+              margin-top: 10px;
+            }
+          }
+
+        }
+      }
+    }
+  }
   .content-list-category-all-lg {
     display: block;
   }
@@ -3090,6 +3146,21 @@ body {
     }
 
   }
+
+  .section-detail-sapo-news {
+    .detail-content-page {
+      .category-detail {
+        .item-category-detail-page {
+          .item-show-small {
+            .des-item-small {
+              margin-top: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -3157,6 +3228,26 @@ body {
   .next-page-item-category {
     margin-bottom: 20px;
   }
+  .section-detail-sapo-news {
+    .detail-content-page {
+      .content-detail {
+        .comment {
+          .name-email .email {
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+  }
+  .section-detail-sapo-news {
+    .detail-content-page {
+      .category-detail {
+        margin-top: 20px;
+      }
+    }
+  }
+
+
 }
 
 @media(max-width: 600px) {
@@ -3194,6 +3285,23 @@ body {
         p {
           &:first-child {
             margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .section-detail-sapo-news {
+    .detail-content-page {
+      .content-detail {
+        .fb-share {
+          .fb-lile-and-share {
+            a {
+              display: block;
+              margin-bottom: 10px;
+            }
           }
         }
       }

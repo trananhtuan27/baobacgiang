@@ -1610,19 +1610,22 @@ body {
   .section-detail-sapo-news .detail-content-page .content-detail .tag-detail {
     display: flex;
     flex-wrap: wrap; }
-    .section-detail-sapo-news .detail-content-page .content-detail .tag-detail .icon-tag span {
-      font-family: Merriweather;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 13px;
-      line-height: 22px;
-      color: #DA0000; }
+    .section-detail-sapo-news .detail-content-page .content-detail .tag-detail .icon-tag {
+      margin-top: 10px; }
+      .section-detail-sapo-news .detail-content-page .content-detail .tag-detail .icon-tag span {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 22px;
+        color: #DA0000; }
     .section-detail-sapo-news .detail-content-page .content-detail .tag-detail ul {
       padding: 0;
       list-style: none;
-      display: flex; }
+      display: flex;
+      flex-wrap: wrap; }
       .section-detail-sapo-news .detail-content-page .content-detail .tag-detail ul li {
-        margin-left: 10px; }
+        margin: 10px 0px 0px 10px; }
         .section-detail-sapo-news .detail-content-page .content-detail .tag-detail ul li a {
           padding: 7px 15px;
           font-family: Merriweather;
@@ -1652,8 +1655,7 @@ body {
       background: #FFFFFF;
       border: 1px solid #B3B3B3; }
     .section-detail-sapo-news .detail-content-page .content-detail .comment .name-email {
-      display: flex;
-      flex-wrap: wrap; }
+      display: flex; }
       .section-detail-sapo-news .detail-content-page .content-detail .comment .name-email input {
         margin-top: 15px;
         width: 48%;
@@ -1707,7 +1709,7 @@ body {
       width: 100%;
       height: auto; }
     .section-detail-sapo-news .detail-content-page .content-news-interested .item-news-interested p {
-      margin-top: 10px;
+      margin-top: 15px;
       font-family: Merriweather;
       font-style: normal;
       font-weight: 700;
@@ -1801,6 +1803,10 @@ body {
           color: #222222; }
           .section-detail-sapo-news .detail-content-page .category-detail .item-category-detail-page .item-show-small .des-item-small a:hover {
             text-decoration: none; }
+  .section-detail-sapo-news .detail-content-page .category-detail .banner-ads-detail-page a img {
+    margin-top: 20px;
+    height: auto;
+    width: 100%; }
 
 @media (max-width: 1199px) {
   .content-header-pc {
@@ -1810,8 +1816,26 @@ body {
     display: block; }
 
   .section-hot-news .hot-news .content-host-news .title-name-new-host .line-news-host {
-    width: 82%; } }
+    width: 82%; }
+
+  .name-email input {
+    width: 100px; } }
 @media (max-width: 991px) {
+  .section-detail-sapo-news .detail-content-page .category-detail .item-category-detail .show-item-right {
+    display: block; }
+    .section-detail-sapo-news .detail-content-page .category-detail .item-category-detail .show-item-right img {
+      width: 100%;
+      height: auto;
+      float: none; }
+    .section-detail-sapo-news .detail-content-page .category-detail .item-category-detail .show-item-right p {
+      margin-top: 15px; }
+  .section-detail-sapo-news .detail-content-page .category-detail .item-category-detail-page .item-show-small a img {
+    width: 100%;
+    float: none;
+    height: auto; }
+  .section-detail-sapo-news .detail-content-page .category-detail .item-category-detail-page .item-show-small p {
+    margin-top: 10px; }
+
   .content-list-category-all-lg {
     display: block; }
 
@@ -1863,7 +1887,10 @@ body {
     display: block;
     margin-right: 0px; }
   .section-footer .line-left-footer .ads-guest-post .guest-post-contact-footer {
-    display: block; } }
+    display: block; }
+
+  .section-detail-sapo-news .detail-content-page .category-detail .item-category-detail-page .item-show-small .des-item-small {
+    margin-top: 15px; } }
 @media (max-width: 767px) {
   .ads-new {
     margin-top: 20px; }
@@ -1906,7 +1933,13 @@ body {
     display: none !important; }
 
   .next-page-item-category {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  .section-detail-sapo-news .detail-content-page .content-detail .comment .name-email .email {
+    margin-left: 15px; }
+
+  .section-detail-sapo-news .detail-content-page .category-detail {
+    margin-top: 20px; } }
 @media (max-width: 600px) {
   .row-custom {
     display: block; }
@@ -1927,5 +1960,9 @@ body {
       margin-right: 0px; }
     .section-content-category .item-content-category .text-item-content-category p:first-child {
       margin-top: 15px; } }
+@media (max-width: 360px) {
+  .section-detail-sapo-news .detail-content-page .content-detail .fb-share .fb-lile-and-share a {
+    display: block;
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=main.css.map */
