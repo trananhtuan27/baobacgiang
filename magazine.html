@@ -1,206 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Reset css -->
-    <link rel="stylesheet" href="css/reset.css">
-
-    <!-- Bootstrap gird -->
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-
-    <!-- Vendor -->
-    <link rel="stylesheet" href="vendors/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/owl/owl.theme.default.min.css">
-
-    <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>Thumb Báo Bắc Giang</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/boostrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="icon" href="assets/image/icon-bbg-2.png"/>
+    <title>Magazine</title>
 </head>
 <body>
-<header>
-    <div class="taskbar">
+
+<section>
+    <div class="section_header_first">
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="taskbar__language">
-                    <ul>
-                        <li><span>TIẾNG VIỆT</span></li>
-                        <li><span>ENGLISH</span></li>
-                    </ul>
-                </div>
-                <div class="taskbar__social">
-                    <ul>
-                        <li>
-                                <span>
-                                    <img src="images/social/facebook.png" alt="facebook">
-                                </span>
-                        </li>
-                        <li>
-                                <span>
-                                    <img src="images/social/zalo.png" alt="zalo">
-                                </span>
-                        </li>
-                        <li>
-                                <span>
-                                    <img src="images/social/weibo.png" alt="weibo">
-                                </span>
-                        </li>
-                        <li>
-                                <span>
-                                    <img src="images/social/youtube.png" alt="youtube">
-                                </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="banner">
-        <img src="images/banner.png" alt="logo">
-    </div>
-
-    <!-- menu -->
-    <div class="main-menu">
-        <div class="container">
-            <div class="d-flex align-items-center justify-content-between">
-                <a class="logo-mobile" href=>
-                    <img src="images/home.svg" alt="home">
-                </a>
-                <img class="logo-mobile" src="images/banner.png" alt="Logo mobile">
-                <div class="d-flex align-items-center justify-content-between menu-mobile">
-                    <div class="d-flex align-items-center main-menu__link">
-                        <a class="link__homepage" href="">
-                            <img src="images/home.svg" alt="home">
-                        </a>
-                        <ul>
-                            <li>
-                                <a class="sub-menu" href="">
-                                    <span>时事新闻</span>
-                                    <span class="icon-submenu">
-                                            <img src="images/arrown.svg" alt="icon">
-                                        </span>
-                                </a>
-
-                                <ul class="sub">
-                                    <li>
-                                        <a href="">Submenu 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Submenu 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Submenu 3</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="">农业经济</a></li>
-                            <li><a href="">投资发展</a></li>
-                            <li><a href="">社会</a></li>
-                            <li><a href="">文化旅游</a></li>
-                            <li><a href="">体育</a></li>
-                            <li><a href="">多媒体</a></li>
-                        </ul>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between main-menu__search">
-                        <input type="text" placeholder="請輸入關鍵詞">
-                        <button type="button">搜索</button>
-                    </div>
-                    <div class="js-close-menu btn-close-menu">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                  d="M0.275664 0.275664C0.643216 -0.091888 1.23914 -0.091888 1.60669 0.275664L8 6.66898L14.3933 0.275664C14.7609 -0.091888 15.3568 -0.091888 15.7243 0.275664C16.0919 0.643216 16.0919 1.23914 15.7243 1.60669L9.33102 8L15.7243 14.3933C16.0919 14.7609 16.0919 15.3568 15.7243 15.7243C15.3568 16.0919 14.7609 16.0919 14.3933 15.7243L8 9.33102L1.60669 15.7243C1.23914 16.0919 0.643216 16.0919 0.275664 15.7243C-0.091888 15.3568 -0.091888 14.7609 0.275664 14.3933L6.66898 8L0.275664 1.60669C-0.091888 1.23914 -0.091888 0.643216 0.275664 0.275664Z"
-                                  fill="#FFF"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="js-toggle-menu toogle-menu-mobile">
-                    <img src="images/menu.svg" alt="Icon">
-                </div>
-                <div class="js-menu-overlay menu-mobile-overlay"></div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<!-- content -->
-<div class="content-magazine-news">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div class="content-introduce-magazine">
-                    <h3>eMagazine</h3>
-                    <h2>Số hóa hoạt động một cửa,
-                        nâng cao hiệu quả phục vụ</h2>
-                    <p>
-                        <b>Bài ảnh</b><span>: Kim Hiếu - Hoài Thu</span>
-                        <b>Trình bày:</b><span> Ngọc Nhi</span>
-                    </p>
-                    <p>
-                        Thực hiện chương trình tổng thể CCHC, chương trình chuyển đổi số, huyện Việt Yên đã tập trung
-                        nguồn lực đầu tư cơ sở vật chất, ứng dụng công nghệ thông tin vào hoạt động hướng tới xây dựng
-                        chính quyền số.
-                    </p>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div class="thumb-magazine-news">
-                    <img src="images/rectangle-47.png" alt="thumb">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="content-magazine">
-                    <h2>CƠ SỞ VẬT CHẤT
-                        ĐỒNG BỘ - HIỆN ĐẠI</h2>
-                    <p>
-                        Thực hiện chương trình tổng thể CCHC, chương trình chuyển đổi số, huyện Việt Yên đã tập trung
-                        nguồn lực đầu tư cơ sở vật chất, ứng dụng công nghệ thông tin vào hoạt động hướng tới xây dựng
-                        chính quyền số. Bộ phận một cửa của huyện được đầu tư nhiều thiết bị hiện đại như: Hệ thống xếp
-                        hàng tự động; máy đánh giá sự hài lòng; máy tra mã vạch; tivi màn hình cảm ứng và ghế ngồi chờ,
-                        nước uống. Người dân đến được các cán bộ tiếp nhận, hướng dẫn ghi hồ sơ, nhập thông tin lên phần
-                        mềm và viết giấy hẹn trả kết quả.
-                    </p>
-                    <img src="images/rectangle-50.png" alt="thumb">
-                    <p>Thực hiện chương trình tổng thể CCHC, chương trình chuyển đổi số, huyện Việt Yên đã tập trung nguồn lực đầu tư cơ sở vật chất, ứng dụng công nghệ thông tin vào hoạt động hướng tới xây dựng chính quyền số. Bộ phận một cửa của huyện được đầu tư nhiều thiết bị hiện đại như: Hệ thống xếp hàng tự động; máy đánh giá sự hài lòng; máy tra mã vạch; tivi màn hình cảm ứng và ghế ngồi chờ, nước uống. Người dân đến được các cán bộ tiếp nhận, hướng dẫn ghi hồ sơ, nhập thông tin lên phần mềm và viết giấy hẹn trả kết quả.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="footer__logo d-flex align-items-center">
-                    <img src="images/logo_footer.png" alt="Logo">
-                </div>
-            </div>
-            <div class="col-md-9">
-                <div class="d-flex footer__right">
-                    <div class="footer__desc">
-                        <p>北江报网版权所有</p>
-                        <p>总社地址：49号，阮文古街, 北京市，北江省</p>
-                        <p>总编辑: 郑文英.</p>
-                        <p>电话: +84.0204.3 856 624 - 总编辑: toasoanbbg@gmail.com</p>
-                        <p>由越南通信与传媒部与2016年6月2日签发的285/GP-BTTTT 号许可证
-                            经本报以明确书面的许可，才可复制或转载使用本报内容.
-                        </p>
-                    </div>
-                    <div class="footer__app">
-                        <div class="d-flex">
-                            <div class="qrcode">
-                                <p class="qrcode__des">下载应用程式</p>
-                                <img src="images/qr_code.png" alt="image">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header_first">
+                        <div class="header_first_left">
+                            <div class="mail_contact">
+                                <img src="assets/image/icon/mail.svg" alt="icon_mail">
+                                <span>toasoanbbg@gmail.com</span>
                             </div>
-                            <div class="app__list">
-                                <img src="images/app_store.png" alt="image">
-                                <img src="images/google_play.png" alt="image">
+                            <div class="phone_contact">
+                                <img src="assets/image/icon/phone.svg" alt="icon_phone">
+                                <span>(+84) 0204 3856 624</span>
+                            </div>
+                        </div>
+                        <div class="header_first_center">
+                            <a href=""> <img src="assets/image/icon/icon-home-magazine.svg" alt="icon-home"></a>
+                            <div class="text-home">
+                                <a href="">Home</a>
+                            </div>
+                        </div>
+                        <div class="header_first_right">
+                            <div class="search_header">
+                                <img class="icon_search" src="assets/image/icon/search.svg" alt="icon_search">
+                                <input type="text" placeholder="tìm kiếm ...">
+                                <a href="#"><img src="assets/image/icon/Facebook_black.svg" alt="fabook"></a>
+                                <a href="#"><img src="assets/image/icon/rss.svg" alt="rss"></a>
                             </div>
                         </div>
                     </div>
@@ -208,11 +48,133 @@
             </div>
         </div>
     </div>
-</footer>
+</section>
 
-<!-- Optional JavaScript -->
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="vendors/owl/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
+<section>
+    <div class="content-magazine">
+        <div class="content-wrap-first-content">
+            <div class="wrap-first-content">
+                <p><span>eMagazine</span></p>
+                <h2>Số hóa hoạt động một cửa,
+                    nâng cao hiệu quả phục vụ</h2>
+                <p><span><b>Bài ảnh:</b> Kim Hiếu - Hoài Thu</span><span style="margin-left: 50px"><b>Trình bày:</b> Ngọc Nhi</span>
+                </p>
+                <p>Thực hiện chương trình tổng thể CCHC, chương trình chuyển đổi số, huyện Việt Yên đã tập trung
+                    nguồn lực đầu tư cơ sở vật chất, ứng dụng công nghệ thông tin vào hoạt động hướng tới xây
+                    dựng chính quyền số.</p>
+            </div>
+            <div class="wrap-first-image">
+                <img src="assets/image/magazine/Rectangle-47.png" alt="Thumb">
+            </div>
+        </div>
+        <div class="content-wrap-two-content">
+            <h2>CƠ SỞ VẬT CHẤT
+                ĐỒNG BỘ - HIỆN ĐẠI</h2>
+            <p>Thực hiện chương trình tổng thể CCHC, chương trình chuyển đổi số, huyện Việt Yên đã tập trung
+                nguồn lực đầu tư cơ sở vật chất, ứng dụng công nghệ thông tin vào hoạt động hướng tới xây dựng
+                chính quyền số. Bộ phận một cửa của huyện được đầu tư nhiều thiết bị hiện đại như: Hệ thống xếp
+                hàng tự động; máy đánh giá sự hài lòng; máy tra mã vạch; tivi màn hình cảm ứng và ghế ngồi chờ,
+                nước uống. Người dân đến được các cán bộ tiếp nhận, hướng dẫn ghi hồ sơ, nhập thông tin lên phần
+                mềm và viết giấy hẹn trả kết quả.
+            </p>
+            <div class="thumb-content-wrap-two-content">
+                <img src="assets/image/magazine/Rectangle-50.png" alt="Thumb">
+            </div>
+            <p>Thực hiện chương trình tổng thể CCHC, chương trình chuyển đổi số, huyện Việt Yên đã tập trung
+                nguồn lực đầu tư cơ sở vật chất, ứng dụng công nghệ thông tin vào hoạt động hướng tới xây dựng
+                chính quyền số. Bộ phận một cửa của huyện được đầu tư nhiều thiết bị hiện đại như: Hệ thống xếp
+                hàng tự động; máy đánh giá sự hài lòng; máy tra mã vạch; tivi màn hình cảm ứng và ghế ngồi chờ,
+                nước uống. Người dân đến được các cán bộ tiếp nhận, hướng dẫn ghi hồ sơ, nhập thông tin lên phần
+                mềm và viết giấy hẹn trả kết quả.
+            </p>
+            <div class="thumb-content-wrap-two-content-full">
+                <img src="assets/image/magazine/Rectangle-51.png" alt="Thumb">
+            </div>
+            <p>Thực hiện chương trình tổng thể CCHC, chương trình chuyển đổi số, huyện Việt Yên đã tập trung
+                nguồn lực đầu tư cơ sở vật chất, ứng dụng công nghệ thông tin vào hoạt động hướng tới xây dựng
+                chính quyền số. Bộ phận một cửa của huyện được đầu tư nhiều thiết bị hiện đại như: Hệ thống xếp
+                hàng tự động; máy đánh giá sự hài lòng; máy tra mã vạch; tivi màn hình cảm ứng và ghế ngồi chờ,
+                nước uống. Người dân đến được các cán bộ tiếp nhận, hướng dẫn ghi hồ sơ, nhập thông tin lên phần
+                mềm và viết giấy hẹn trả kết quả.
+            </p>
+            <div class="thumb-content-wrap-two-content">
+                <img src="assets/image/magazine/Rectangle-50.png" alt="Thumb">
+            </div>
+            <p>Thực hiện chương trình tổng thể CCHC, chương trình chuyển đổi số, huyện Việt Yên đã tập trung
+                nguồn lực đầu tư cơ sở vật chất, ứng dụng công nghệ thông tin vào hoạt động hướng tới xây dựng
+                chính quyền số. Bộ phận một cửa của huyện được đầu tư nhiều thiết bị hiện đại như: Hệ thống xếp
+                hàng tự động; máy đánh giá sự hài lòng; máy tra mã vạch; tivi màn hình cảm ứng và ghế ngồi chờ,
+                nước uống. Người dân đến được các cán bộ tiếp nhận, hướng dẫn ghi hồ sơ, nhập thông tin lên phần
+                mềm và viết giấy hẹn trả kết quả.
+            </p>
+            <div class="line-magazine"></div>
+        </div>
+        <div class="comment">
+            <p>Ý kiến bạn đọc</p>
+            <textarea></textarea>
+            <div class="name-email">
+                <input class="name" type="text" placeholder="Họ tên (bắt buộc)">
+                <input class="email" type="email" placeholder="Email">
+            </div>
+           <div class="submit-form-comment">
+               <button type="submit">Gửi</button>
+           </div>
+        </div>
+    </div>
+
+    </div>
+</section>
+<section>
+    <div class="news-interested-magazine">
+        <div class="container">
+            <div class="row">
+              <div class="col-12">
+                  <div class="news-interested">
+                      <img class="icon-news-interested" src="assets/image/Rectangle%2034.svg"
+                           alt="Rectangle">
+                      <h2>Có thể bạn quan tâm</h2>
+                  </div>
+              </div>
+
+            </div>
+            <div class="content-news-interested">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <div class="item-news-interested">
+                            <a href=""><img src="assets/image/wapper.png" alt="alt"></a>
+                            <p><a class="cut-line-three" href="">Khẩn trương thực hiện các chính
+                                sách phục hồi, phát triển kinh tế - xã hội</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <div class="item-news-interested">
+                            <a href=""><img src="assets/image/wapper.png" alt="alt"></a>
+                            <p><a class="cut-line-three" href="">Khẩn trương thực hiện các chính
+                                sách phục hồi, phát triển kinh tế - xã hội</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <div class="item-news-interested">
+                            <a href=""><img src="assets/image/wapper.png" alt="alt"></a>
+                            <p><a class="cut-line-three" href="">Khẩn trương thực hiện các chính
+                                sách phục hồi, phát triển kinh tế - xã hội</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <div class="item-news-interested">
+                            <a href=""><img src="assets/image/wapper.png" alt="alt"></a>
+                            <p><a class="cut-line-three" href="">Khẩn trương thực hiện các chính
+                                sách phục hồi, phát triển kinh tế - xã hội</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="assets/boostrap/js/jquery.js"></script>
+<script src="assets/boostrap/js/bootstrap.js"></script>
 </body>
 </html>
