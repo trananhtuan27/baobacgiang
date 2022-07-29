@@ -55,6 +55,14 @@ body {
   line-clamp: 2;
   -webkit-box-orient: vertical; }
 
+.cut-line-five {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 2;
+  -webkit-box-orient: vertical; }
+
 .cut-line-six {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -116,6 +124,8 @@ body {
         color: #4D4D4D; }
         .section_header_first .header_first .header_first_left .mail_contact span, .section_header_first .header_first .header_first_left .phone_contact span {
           margin-left: 5px; }
+          .section_header_first .header_first .header_first_left .mail_contact span a, .section_header_first .header_first .header_first_left .phone_contact span a {
+            color: #4D4D4D; }
       .section_header_first .header_first .header_first_left .phone_contact {
         margin-left: 30px; }
     .section_header_first .header_first .header_first_center img {
@@ -136,7 +146,7 @@ body {
       position: relative; }
       .section_header_first .header_first .header_first_right .search_header .icon_search {
         position: absolute;
-        top: 3px;
+        top: 4px;
         left: 13px; }
       .section_header_first .header_first .header_first_right .search_header input {
         font-family: Calibri-italic;
@@ -245,7 +255,9 @@ body {
     .content-list-category-all .section-list-category .list-category ul {
       padding: 0; }
       .content-list-category-all .section-list-category .list-category ul .icon-home {
-        padding: 12px 9px; }
+        padding: 12px 9px 12px 0px; }
+        .content-list-category-all .section-list-category .list-category ul .icon-home a i {
+          font-size: 25px; }
       .content-list-category-all .section-list-category .list-category ul li {
         position: relative;
         padding: 15px 9px;
@@ -261,7 +273,8 @@ body {
           letter-spacing: -0.018em;
           color: #FFFFFF; }
           .content-list-category-all .section-list-category .list-category ul li a:hover {
-            text-decoration: none; }
+            text-decoration: none;
+            color: #f4f16d; }
         .content-list-category-all .section-list-category .list-category ul li .sub-news {
           position: absolute;
           top: 54px;
@@ -359,6 +372,9 @@ body {
       font-size: 16px;
       line-height: 22px;
       color: #000000; }
+      .section-sapo-news .slider-news-sapo .title-left-news-text-sapo .des-l-news-text-sapo:hover {
+        text-decoration: none;
+        color: #DA0000; }
   .section-sapo-news .slider-news-sapo .title-news-category-sapo {
     font-family: Merriweather;
     font-style: normal;
@@ -389,15 +405,16 @@ body {
     line-height: 20px;
     text-transform: uppercase;
     color: #DA0000; }
-  .section-sapo-news .l-news-text-sapo .name-category-sapo p {
+  .section-sapo-news .l-news-text-sapo .name-category-sapo h4 {
     font-family: Merriweather;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 22px; }
-    .section-sapo-news .l-news-text-sapo .name-category-sapo p .des-l-news-text-sapo {
+    .section-sapo-news .l-news-text-sapo .name-category-sapo h4 .des-l-news-text-sapo {
       color: #222222; }
-      .section-sapo-news .l-news-text-sapo .name-category-sapo p .des-l-news-text-sapo:hover {
+      .section-sapo-news .l-news-text-sapo .name-category-sapo h4 .des-l-news-text-sapo:hover {
+        color: #DA0000;
         text-decoration: none; }
 .section-sapo-news .item-sapo-news-right {
   position: relative;
@@ -413,16 +430,17 @@ body {
     width: 100%;
     height: auto;
     object-fit: cover; }
-  .section-sapo-news .item-sapo-news-right p {
+  .section-sapo-news .item-sapo-news-right h4 {
     margin-top: 10px;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 22px; }
-    .section-sapo-news .item-sapo-news-right p a {
+    .section-sapo-news .item-sapo-news-right h4 a {
       color: #222222; }
-      .section-sapo-news .item-sapo-news-right p a:hover {
-        text-decoration: none; }
+      .section-sapo-news .item-sapo-news-right h4 a:hover {
+        text-decoration: none;
+        color: #DA0000; }
 
 .section-hot-news {
   margin-top: 30px;
@@ -460,7 +478,8 @@ body {
         line-height: 22px;
         color: #222222; }
         .section-hot-news .new-item .news-desc a:hover {
-          text-decoration: none; }
+          text-decoration: none;
+          color: #DA0000; }
 
 .section-line-config {
   margin-top: 35px; }
@@ -487,17 +506,17 @@ body {
     margin-top: 15px; }
     .section-congress .news-item img {
       width: 100%; }
-    .section-congress .news-item p {
+    .section-congress .news-item h4 {
       margin-top: 10px; }
-      .section-congress .news-item p a {
+      .section-congress .news-item h4 a {
         font-family: Merriweather;
         font-style: normal;
         font-weight: 700;
         font-size: 15px;
         line-height: 22px;
         color: #222222; }
-        .section-congress .news-item p a:hover {
-          color: #222222;
+        .section-congress .news-item h4 a:hover {
+          color: #DA0000;
           text-decoration: none; }
 
 .line-9D9D9 {
@@ -535,13 +554,17 @@ body {
       .new-host-most-read .nav-new-host-most-read .nav-new-host p:hover, .new-host-most-read .nav-new-host-most-read .nav-most-read p:hover {
         color: #FFFFFF;
         cursor: pointer; }
-.new-host-most-read .conntent-new-host-most-read .content-new-host h2, .new-host-most-read .conntent-new-host-read .content-new-host h2 {
+.new-host-most-read .conntent-new-host-most-read .content-new-host h4, .new-host-most-read .conntent-new-host-read .content-new-host h4 {
   font-style: normal;
   margin-top: 10px;
   font-weight: 700;
   font-size: 15px;
-  line-height: 22px;
-  color: #222222; }
+  line-height: 22px; }
+  .new-host-most-read .conntent-new-host-most-read .content-new-host h4 a, .new-host-most-read .conntent-new-host-read .content-new-host h4 a {
+    color: #222222; }
+    .new-host-most-read .conntent-new-host-most-read .content-new-host h4 a:hover, .new-host-most-read .conntent-new-host-read .content-new-host h4 a:hover {
+      text-decoration: none;
+      color: #DA0000; }
 .new-host-most-read .conntent-new-host-most-read .content-new-host .l-news-text, .new-host-most-read .conntent-new-host-read .content-new-host .l-news-text {
   border-bottom: 1px solid #D9D9D9;
   padding-bottom: 25px; }
@@ -568,9 +591,6 @@ body {
     font-size: 13px;
     line-height: 20px;
     color: #333333; }
-    .new-host-most-read .conntent-new-host-most-read .content-new-host .l-news-text .name-category-new-host .des-l-news-text:hover, .new-host-most-read .conntent-new-host-read .content-new-host .l-news-text .name-category-new-host .des-l-news-text:hover {
-      color: #333333;
-      text-decoration: none; }
   .new-host-most-read .conntent-new-host-most-read .content-new-host .l-news-text .line-1px-9D9D9, .new-host-most-read .conntent-new-host-read .content-new-host .l-news-text .line-1px-9D9D9 {
     width: 100%;
     height: 1px;
@@ -590,7 +610,7 @@ body {
 .new-host-most-read .action-hot img {
   margin-top: 15px;
   width: 100%; }
-.new-host-most-read .action-hot h2 {
+.new-host-most-read .action-hot h4 {
   font-family: Merriweather;
   margin: 10px 0px;
   font-style: normal;
@@ -599,10 +619,10 @@ body {
   line-height: 22px;
   /* or 147% */
   color: #222222; }
-  .new-host-most-read .action-hot h2 a {
+  .new-host-most-read .action-hot h4 a {
     color: #222222; }
-    .new-host-most-read .action-hot h2 a:hover {
-      color: #222222;
+    .new-host-most-read .action-hot h4 a:hover {
+      color: #DA0000;
       text-decoration: none; }
 .new-host-most-read .action-hot ul {
   padding: 0px 0px 0px 15px;
@@ -614,16 +634,13 @@ body {
     display: inline-block;
     width: 1em;
     margin-left: -16px; }
-  .new-host-most-read .action-hot ul li span a {
+  .new-host-most-read .action-hot ul li span {
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
     line-height: 20px;
     color: #222222; }
-    .new-host-most-read .action-hot ul li span a:hover {
-      text-decoration: none;
-      color: #222222; }
 .new-host-most-read .line-config-new-host {
   margin-top: 1px;
   width: 100%;
@@ -680,7 +697,7 @@ body {
             color: #000000; }
             .section-media .content-media .list-media ul li a:hover {
               text-decoration: none;
-              color: #000000; }
+              color: #DA0000; }
   .section-media .video-hot {
     margin-top: 15px; }
     .section-media .video-hot img {
@@ -689,17 +706,17 @@ body {
     .section-media .video-hot .time-video img {
       width: auto !important;
       height: auto !important; }
-    .section-media .video-hot p {
+    .section-media .video-hot h4 {
       margin-top: 10px;
       font-style: normal;
       font-weight: 700;
       font-size: 15px;
       line-height: 22px; }
-      .section-media .video-hot p a {
+      .section-media .video-hot h4 a {
         color: #222222; }
-        .section-media .video-hot p a:hover {
+        .section-media .video-hot h4 a:hover {
           text-decoration: none;
-          color: #222222; }
+          color: #DA0000; }
     .section-media .video-hot span {
       font-style: normal;
       font-weight: 400;
@@ -713,18 +730,18 @@ body {
     .section-media .related-videos img {
       width: 160px;
       height: auto; }
-    .section-media .related-videos p {
+    .section-media .related-videos h4 {
       margin-left: 10px; }
-      .section-media .related-videos p a {
+      .section-media .related-videos h4 a {
         font-family: Merriweather;
         font-style: normal;
         font-weight: 700;
         font-size: 15px;
         line-height: 22px;
         color: #222222; }
-        .section-media .related-videos p a:hover {
+        .section-media .related-videos h4 a:hover {
           text-decoration: none;
-          color: #222222; }
+          color: #DA0000; }
 
 .section-news-real-estate {
   margin-top: 30px; }
@@ -749,26 +766,33 @@ body {
       font-size: 15px;
       line-height: 22px;
       color: #222222; }
-      .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left p {
-        font-family: Merriweather;
+      .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left h4 {
+        font-family: Arial;
         font-style: normal;
-        font-weight: 700;
-        font-size: 15px;
-        line-height: 22px; }
-        .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left p a {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px; }
+        .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left h4 a {
           color: #222222; }
-          .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left p a:hover {
+          .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left h4 a:hover {
             text-decoration: none;
-            color: #222222; }
-    .section-news-real-estate .item-news-real-estate .content-news-real-estate .time-news-real-estate {
-      margin-top: 10px;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 14px;
-      /* identical to box height */
-      letter-spacing: 0.005em;
-      color: #9D9D9D; }
+            color: #DA0000; }
+        .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left h4:nth-child(1) {
+          font-family: Merriweather;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 22px;
+          font-size: 15px; }
+      .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left .time-news-real-estate {
+        font-family: Arial;
+        margin-top: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        /* identical to box height */
+        letter-spacing: 0.005em;
+        color: #9D9D9D; }
     .section-news-real-estate .item-news-real-estate .content-news-real-estate .descript-item-real-estate {
       margin-top: 10px;
       font-style: normal;
@@ -790,17 +814,17 @@ body {
       .section-news-real-estate .new-item-real-estate-right .show-item-real-estate-right .thumb-item-real-estate-right {
         width: 75px;
         height: 75px; }
-      .section-news-real-estate .new-item-real-estate-right .show-item-real-estate-right p {
+      .section-news-real-estate .new-item-real-estate-right .show-item-real-estate-right h4 {
         font-style: normal;
         font-weight: 700;
         font-size: 13px;
         line-height: 22px;
         margin-left: 10px; }
-        .section-news-real-estate .new-item-real-estate-right .show-item-real-estate-right p a {
+        .section-news-real-estate .new-item-real-estate-right .show-item-real-estate-right h4 a {
           color: #222222; }
-          .section-news-real-estate .new-item-real-estate-right .show-item-real-estate-right p a:hover {
+          .section-news-real-estate .new-item-real-estate-right .show-item-real-estate-right h4 a:hover {
             text-decoration: none;
-            color: #222222; }
+            color: #DA0000; }
 
 .section-wapper {
   margin-top: 20px; }
@@ -819,18 +843,18 @@ body {
     margin-top: 10px; }
     .section-wapper .title-wapper .content-section-wapper img {
       width: 100%; }
-    .section-wapper .title-wapper .content-section-wapper h2 {
+    .section-wapper .title-wapper .content-section-wapper h4 {
       font-family: Merriweather;
       margin-top: 10px;
       font-style: normal;
       font-weight: 700;
       font-size: 14px;
       line-height: 22px; }
-      .section-wapper .title-wapper .content-section-wapper h2 a {
+      .section-wapper .title-wapper .content-section-wapper h4 a {
         color: #222222; }
-        .section-wapper .title-wapper .content-section-wapper h2 a:hover {
+        .section-wapper .title-wapper .content-section-wapper h4 a:hover {
           text-decoration: none;
-          color: #222222; }
+          color: #DA0000; }
     .section-wapper .title-wapper .content-section-wapper .line-content-section-wapper {
       margin: 10px 0px;
       background: #C9C9C9;
@@ -881,18 +905,18 @@ body {
     margin-top: 15px; }
     .section-sport .content-sport-home img {
       width: 100%; }
-    .section-sport .content-sport-home h2 {
+    .section-sport .content-sport-home h4 {
       font-family: Merriweather;
       margin-top: 10px;
       font-style: normal;
       font-weight: 700;
       font-size: 15px;
       line-height: 22px; }
-      .section-sport .content-sport-home h2 a {
+      .section-sport .content-sport-home h4 a {
         color: #222222; }
-        .section-sport .content-sport-home h2 a:hover {
+        .section-sport .content-sport-home h4 a:hover {
           text-decoration: none;
-          color: #222222; }
+          color: #DA0000; }
 
 .section-science-technology {
   background: #FFFFFF;
@@ -909,18 +933,18 @@ body {
   .section-science-technology .item-news-science-technology .thumb-science-technology {
     width: 100%;
     object-fit: cover; }
-  .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left p {
+  .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left h4 {
     font-family: Merriweather;
     margin-top: 10px;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 22px; }
-    .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left p a {
+    .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left h4 a {
       color: #222222; }
-      .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left p a:hover {
+      .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left h4 a:hover {
         text-decoration: none;
-        color: #222222; }
+        color: #DA0000; }
   .section-science-technology .item-news-science-technology .content-news-science-technology .new-item-science-technology-left .descript-item-science-technology {
     margin-top: 7px;
     font-style: normal;
@@ -934,18 +958,18 @@ body {
       width: 100%;
       height: 150px;
       object-fit: cover; }
-    .section-science-technology .content-news-science-technology-small h2 {
+    .section-science-technology .content-news-science-technology-small h4 {
       font-family: Merriweather;
       margin-top: 10px;
       font-style: normal;
       font-weight: 700;
       font-size: 15px;
       line-height: 22px; }
-      .section-science-technology .content-news-science-technology-small h2 a {
+      .section-science-technology .content-news-science-technology-small h4 a {
         color: #222222; }
-        .section-science-technology .content-news-science-technology-small h2 a:hover {
+        .section-science-technology .content-news-science-technology-small h4 a:hover {
           text-decoration: none;
-          color: #222222; }
+          color: #DA0000; }
   .section-science-technology .icon-title-news-science-technology {
     float: left;
     margin-right: 10px; }
@@ -971,15 +995,16 @@ body {
         width: 100px;
         height: 75px;
         object-fit: cover; }
-      .section-science-technology .new-item-science-technology-right .show-item-science-technology-right p {
+      .section-science-technology .new-item-science-technology-right .show-item-science-technology-right h4 {
         font-style: normal;
         font-weight: 700;
         font-size: 13px;
         line-height: 22px; }
-        .section-science-technology .new-item-science-technology-right .show-item-science-technology-right p a {
+        .section-science-technology .new-item-science-technology-right .show-item-science-technology-right h4 a {
           color: #222222; }
-          .section-science-technology .new-item-science-technology-right .show-item-science-technology-right p a:hover {
-            text-decoration: none; }
+          .section-science-technology .new-item-science-technology-right .show-item-science-technology-right h4 a:hover {
+            text-decoration: none;
+            color: #DA0000; }
 
 .section-naitional-defense {
   background: #FFFFFF; }
@@ -994,13 +1019,18 @@ body {
   .section-naitional-defense .item-news-naitional-defense .thumb-naitional-defense {
     width: 100%;
     object-fit: cover; }
-  .section-naitional-defense .item-news-naitional-defense .content-news-naitional-defense .new-item-naitional-defense-left p {
+  .section-naitional-defense .item-news-naitional-defense .content-news-naitional-defense .new-item-naitional-defense-left h4 {
+    font-family: Merriweather;
     margin-top: 10px;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
-    line-height: 22px;
-    color: #222222; }
+    line-height: 22px; }
+    .section-naitional-defense .item-news-naitional-defense .content-news-naitional-defense .new-item-naitional-defense-left h4 a {
+      color: #222222; }
+      .section-naitional-defense .item-news-naitional-defense .content-news-naitional-defense .new-item-naitional-defense-left h4 a:hover {
+        text-decoration: none;
+        color: #DA0000; }
   .section-naitional-defense .item-news-naitional-defense .content-news-naitional-defense .new-item-naitional-defense-left .descript-item-naitional-defense {
     margin-top: 7px;
     font-style: normal;
@@ -1014,16 +1044,16 @@ body {
       width: 100%;
       height: 150px;
       object-fit: cover; }
-    .section-naitional-defense .content-news-naitional-defense-small h2 {
+    .section-naitional-defense .content-news-naitional-defense-small h4 {
       margin-top: 10px;
       font-style: normal;
       font-weight: 700;
       font-size: 15px;
       line-height: 22px; }
-      .section-naitional-defense .content-news-naitional-defense-small h2 a {
+      .section-naitional-defense .content-news-naitional-defense-small h4 a {
         color: #222222; }
-        .section-naitional-defense .content-news-naitional-defense-small h2 a:hover {
-          color: #222222;
+        .section-naitional-defense .content-news-naitional-defense-small h4 a:hover {
+          color: #DA0000;
           text-decoration: none; }
   .section-naitional-defense .icon-title-news-naitional-defense {
     float: left;
@@ -1051,14 +1081,15 @@ body {
         height: 75px;
         object-fit: cover;
         border-radius: 3px; }
-      .section-naitional-defense .new-item-naitional-defense-right .show-item-naitional-defense-right p {
+      .section-naitional-defense .new-item-naitional-defense-right .show-item-naitional-defense-right h4 {
         font-style: normal;
         font-weight: 700;
         font-size: 13px;
         line-height: 22px; }
-        .section-naitional-defense .new-item-naitional-defense-right .show-item-naitional-defense-right p a {
+        .section-naitional-defense .new-item-naitional-defense-right .show-item-naitional-defense-right h4 a {
           color: #222222; }
-          .section-naitional-defense .new-item-naitional-defense-right .show-item-naitional-defense-right p a:hover {
+          .section-naitional-defense .new-item-naitional-defense-right .show-item-naitional-defense-right h4 a:hover {
+            color: #DA0000;
             text-decoration: none; }
 
 .section-emagazing {
@@ -1085,17 +1116,18 @@ body {
     .section-emagazing .item-emagazing .title-item-emagazing {
       position: absolute;
       bottom: 32px; }
-      .section-emagazing .item-emagazing .title-item-emagazing p {
+      .section-emagazing .item-emagazing .title-item-emagazing h4 {
         padding: 0px 10px;
         font-style: normal;
         font-weight: 700;
         font-size: 15px;
         line-height: 22px;
         text-align: center; }
-        .section-emagazing .item-emagazing .title-item-emagazing p a {
+        .section-emagazing .item-emagazing .title-item-emagazing h4 a {
           color: #FFFFFF; }
-          .section-emagazing .item-emagazing .title-item-emagazing p a:hover {
-            text-decoration: none; }
+          .section-emagazing .item-emagazing .title-item-emagazing h4 a:hover {
+            text-decoration: none;
+            color: #f4f16d; }
       .section-emagazing .item-emagazing .title-item-emagazing .line-item-emagazing {
         margin-top: 15px;
         background: #FFBE41;
@@ -1148,11 +1180,8 @@ body {
         font-weight: 400;
         font-size: 13px;
         line-height: 20px;
-        width: 237px; }
-        .section-district-country .content-district-country .item-district-country-left p a {
-          color: #000000; }
-          .section-district-country .content-district-country .item-district-country-left p a:hover {
-            text-decoration: none; }
+        width: 237px;
+        color: #000000; }
   .section-district-country .new-item-district-country-right {
     background: #FFFFFF;
     border: 2px dotted #D9D9D9;
@@ -1176,15 +1205,16 @@ body {
         width: 100px;
         height: 75px;
         border-radius: 3px; }
-      .section-district-country .new-item-district-country-right .show-item-district-country-right p {
+      .section-district-country .new-item-district-country-right .show-item-district-country-right h4 {
         font-style: normal;
         font-weight: 700;
         font-size: 13px;
         line-height: 22px; }
-        .section-district-country .new-item-district-country-right .show-item-district-country-right p a {
+        .section-district-country .new-item-district-country-right .show-item-district-country-right h4 a {
           color: #222222; }
-          .section-district-country .new-item-district-country-right .show-item-district-country-right p a:hover {
-            text-decoration: none; }
+          .section-district-country .new-item-district-country-right .show-item-district-country-right h4 a:hover {
+            text-decoration: none;
+            color: #DA0000; }
 
 .section-ads {
   margin-top: 35px; }
@@ -1236,12 +1266,15 @@ body {
           text-decoration: none;
           font-weight: bold; }
         .section-footer .item-footer-category ul li a {
-          text-decoration: none;
           color: #000;
           line-height: 16px;
           display: inline-block;
           vertical-align: top;
           font-size: 11px; }
+          .section-footer .item-footer-category ul li a:hover {
+            text-decoration: none;
+            color: #DA0000;
+            border-bottom: 1px solid #DA0000; }
   .section-footer .line-left-footer {
     border-right: 2px solid #F3D66E;
     height: 3px;
@@ -1269,10 +1302,21 @@ body {
         background: #D9D9D9;
         border-radius: 2px;
         margin-right: 20px; }
+        .section-footer .line-left-footer .ads-guest-post .ads-contact-footer:hover {
+          text-decoration: none; }
       .section-footer .line-left-footer .ads-guest-post .guest-post-contact-footer {
         padding: 5px 10px;
         background: #DA0000;
-        border-radius: 2px; }
+        border-radius: 2px;
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 22px;
+        color: #FFFFFF; }
+        .section-footer .line-left-footer .ads-guest-post .guest-post-contact-footer:hover {
+          text-decoration: none;
+          background: rgba(255, 30, 33, 0.56); }
     .section-footer .line-left-footer .qr-code img {
       width: auto;
       float: left;
@@ -2026,6 +2070,9 @@ body {
 
   .name-email input {
     width: 100px; } }
+@media (max-width: 1024px) {
+  .section-district-country .content-district-country .item-district-country-left p {
+    padding: 0px 10px 0px 0px; } }
 @media (max-width: 991px) {
   .section-detail-sapo-news .detail-content-page .category-detail .item-category-detail .show-item-right {
     display: block; }
@@ -2067,12 +2114,10 @@ body {
   .cut-line-seven {
     -webkit-line-clamp: 2; }
 
-  .section-wapper .title-wapper .content-section-wapper .wapper-related-content img {
-    margin-top: 10px;
-    float: none;
-    width: 100%;
-    height: auto;
-    margin-right: 0px; }
+  .section-wapper .title-wapper .content-section-wapper .wapper-related-content {
+    display: inline-block; }
+    .section-wapper .title-wapper .content-section-wapper .wapper-related-content img {
+      margin-top: 10px; }
 
   .section-science-technology .new-item-science-technology-right .show-item-science-technology-right img {
     width: 100px;
@@ -2184,7 +2229,10 @@ body {
       margin-left: 0px; }
     .content-magazine .comment .submit-form-comment button {
       width: auto;
-      padding: 10px 80px; } }
+      padding: 10px 80px; }
+
+  .section-news-real-estate .item-news-real-estate .content-news-real-estate .new-item-real-estate-left h4:nth-child(1) {
+    margin-top: 15px; } }
 @media (max-width: 600px) {
   .row-custom {
     display: block; }
