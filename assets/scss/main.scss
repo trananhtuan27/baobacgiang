@@ -260,8 +260,13 @@ body {
         p {
           font-family: Merriweather;
           font-weight: bold;
-          color: #DA0000;
           font-size: 26px;
+          a {
+            &:hover {
+              text-decoration: none;
+            }
+            color: #DA0000;
+          }
         }
       }
     }
@@ -405,17 +410,10 @@ body {
       overflow: auto;
       -webkit-overflow-scrolling: touch;
       -ms-overflow-style: -ms-autohiding-scrollbar;
-
       .menu_bread {
         padding: 0px;
-        -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-        flex-grow: 1;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         list-style: none;
-
         li {
           padding-right: 20px;
 
@@ -430,6 +428,16 @@ body {
           }
         }
       }
+
+    }
+    .wrap-scroll-nav::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .wrap-scroll-nav {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
     }
   }
 }
@@ -3764,6 +3772,20 @@ body {
       }
     }
   }
+  .new-host-most-read {
+    .action-hot {
+      margin-top: 20px;
+    }
+  }
+  .new-host-most-read {
+    .ads-new {
+    img {
+      width: 100%;
+      height: auto;
+    }
+    }
+  }
+
 }
 
 @media(max-width: 600px) {
@@ -3832,17 +3854,6 @@ body {
               display: block;
               margin-left: 0px !important;
             }
-          }
-        }
-      }
-    }
-  }
-  .content-header-lg {
-    .section_header_first-mobi {
-      .logo-header-mobi {
-        a {
-          img {
-            width: 100%;
           }
         }
       }

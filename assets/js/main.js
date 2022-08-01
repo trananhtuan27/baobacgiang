@@ -74,6 +74,6 @@ $(document).ready(function () {
     });
     $('.show-list-subcategory').on('click', function () {
         $('.list-subcategory').toggle();
-        $('.show-list-click').addClass('active');
+        $('.show-list-click').toggleClass('active');
     });
 });
