@@ -2414,10 +2414,13 @@ body {
     margin-top: 15px;
 
     img {
+      height: 150px;
       width: 100%;
+      object-fit: cover;
     }
 
     h4 {
+      font-family: Merriweather;
       margin-top: 10px;
       font-style: normal;
       font-weight: 700;
@@ -2499,6 +2502,7 @@ body {
   }
 
   h4 {
+    font-family: Merriweather;
     margin-top: 10px;
     font-style: normal;
     font-weight: 700;
@@ -3809,7 +3813,14 @@ body {
     }
     }
   }
+  .section-category-sapo-news {
+    .news-category-sapo-extra-center {
+      img {
+        height: auto;
+      }
+    }
 
+  }
 }
 
 @media(max-width: 600px) {
