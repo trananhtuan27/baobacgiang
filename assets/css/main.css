@@ -1,6 +1,6 @@
 @font-face {
   font-family: Merriweather;
-  src: url("../font/Merriweather/Merriweather-Regular.ttf"); }
+  src: url("../font/Merriweather/Merriweather-Light.ttf"); }
 @font-face {
   font-family: Calibri-italic;
   src: url("../font/calibri-font/Calibri Italic/Calibri Italic.ttf"); }
@@ -112,7 +112,7 @@ body {
     .section_header_first .header_first .header_first_left {
       display: flex; }
       .section_header_first .header_first .header_first_left .mail_contact, .section_header_first .header_first .header_first_left .phone_contact {
-        font-family: 'Merriweather';
+        font-family: Merriweather;
         font-style: normal;
         font-weight: 400;
         font-size: 11px;
@@ -163,6 +163,33 @@ body {
         height: 24px; }
       .section_header_first .header_first .header_first_right .search_header a {
         margin-left: 5px; }
+
+.section_header_first-mobi {
+  position: relative;
+  width: 100%; }
+  .section_header_first-mobi .menu-header-mobi {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1; }
+  .section_header_first-mobi .logo-mobi {
+    width: 165px;
+    height: auto; }
+  .section_header_first-mobi .content-mobi {
+    background: #DA0000; }
+    .section_header_first-mobi .content-mobi li {
+      padding: 3px 10px; }
+      .section_header_first-mobi .content-mobi li a {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.018em;
+        color: #FFFFFF; }
+        .section_header_first-mobi .content-mobi li a:hover {
+          text-decoration: none;
+          color: #f4f16d; }
 
 .section_header_wapper {
   padding-top: 15px; }
@@ -635,7 +662,7 @@ body {
     width: 1em;
     margin-left: -16px; }
   .new-host-most-read .action-hot ul li span {
-    font-family: 'Merriweather';
+    font-family: Merriweather;
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
@@ -1457,7 +1484,7 @@ body {
       object-fit: cover; }
     .section-category-sapo-news .news-category-sapo-extra-right .item-new-category-sapo-extra-right p {
       margin-left: 10px;
-      font-family: 'Merriweather';
+      font-family: Merriweather;
       font-style: normal;
       font-weight: 700;
       font-size: 13px;
@@ -2147,7 +2174,10 @@ body {
     width: 100%;
     display: block; }
   .content-magazine .content-wrap-two-content .thumb-content-wrap-two-content img {
-    width: 100%; } }
+    width: 100%; }
+
+  .section-sapo-news {
+    margin-top: 45px; } }
 @media (max-width: 767px) {
   .ads-new {
     margin-top: 20px; }
