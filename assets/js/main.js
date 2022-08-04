@@ -66,14 +66,34 @@ $(document).ready(function () {
             $('.animated-icon3').toggleClass('open');
         });
     });
-    $('.popup-menu-mobi').on('click',function (){
+    $('.popup-menu-mobi').on('click', function () {
         $('.show-popup-menu-mobi').toggle();
     });
-    $('.icon-close').on('click',function (){
+    $('.icon-close').on('click', function () {
         $('.show-popup-menu-mobi').hide();
     });
     $('.show-list-subcategory').on('click', function () {
         $('.list-subcategory').toggle();
         $('.show-list-click').toggleClass('active');
     });
+    video();
+  function video(){
+      //Play video
+      var video = $("#video").get(0);
+      $('.click-open-video').on('click', function () {
+          $('video').trigger('play');
+          if (video.play()) {
+              $('.click-open-video').hide();
+          }
+      });
+      video.onplaying =function () {
+          $('.click-open-video').hide();
+      }
+      video.onpause = function (){
+          $('.click-open-video').show();
+      }
+  }
+
+
+
 });
