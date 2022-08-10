@@ -471,71 +471,13 @@ body {
 
   .header_wapper {
     display: flex;
+    justify-content: space-between;
 
     .header_wapper_left {
-      height: 90px;
-      padding-left: 0px;
-      margin: 0 auto;
-
-      .ButtonImage {
-        background-repeat: no-repeat;
-        cursor: pointer;
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
-      }
-
-      .btnLogo_1 {
-        background: url('../image/icon-bbg-2.png') no-repeat scroll;
-        height: 86%;
-        left: 0px;
-        position: absolute;
-        width: 6.5%;
-        z-index: 200;
-        border-right: 1px solid #dcdddeb5;
-        bottom: 6px;
-      }
-
-      .btnLogo_2 {
-        background: url('../image/logobbg.png') no-repeat scroll;
-        height: 100%;
-        left: 92px;
-        position: absolute;
-        top: 0px;
-        width: 26%;
-        z-index: 200;
-      }
-
-      .btnLogo-fonttex-1 {
-        font-family: Helvetica-Font;
-        height: 17%;
-        position: absolute;
-        bottom: 0px;
-        width: 22%;
-        left: 93px;
-        font-size: 7.8px;
-        color: #000;
-        line-height: 1.7;
-        letter-spacing: .38px;
-        font-weight: bold;
-        text-align: left;
-        z-index: 201;
-      }
-
-      .btnLogo-fonttex-2 {
-        font-family: Helvetica-Font;
-        height: 18%;
-        position: absolute;
-        bottom: -10px;
-        width: 22%;
-        left: 93px;
-        font-size: 7.8px;
-        color: #000;
-        line-height: 1.7;
-        letter-spacing: 0.32px;
-        font-weight: bold;
-        text-align: left;
-        z-index: 201;
+      a {
+        img {
+          width: auto;
+        }
       }
     }
 
@@ -3478,9 +3420,11 @@ body {
       color: #222222;
     }
   }
+
   .margin-top20 {
     margin-top: 20px;
   }
+
   #images {
     margin-top: 20px;
 
@@ -3580,10 +3524,11 @@ body {
     margin-top: 10px;
     position: relative;
 
-    video[poster]{
+    video[poster] {
       height: 800px;
       width: 100%;
     }
+
     .click-open-video {
       position: absolute;
       display: flex;
@@ -3596,21 +3541,24 @@ body {
       right: 0;
       height: 100%;
       z-index: 2;
-     i {
-       cursor: pointer;
-       font-size: 50px;
-       color: #FFFFFF;
-       padding: 15px 13px;
-       border: 3px solid;
-       border-radius: 50px;
-     }
+
+      i {
+        cursor: pointer;
+        font-size: 50px;
+        color: #FFFFFF;
+        padding: 15px 13px;
+        border: 3px solid;
+        border-radius: 50px;
+      }
     }
 
   }
+
   .content-video-sapo {
     margin-top: -8px;
     background: #E1E1E1;
     padding: 20px;
+
     .title {
       font-family: Merriweather;
       margin-top: 10px;
@@ -3619,6 +3567,7 @@ body {
       font-size: 15px;
       line-height: 22px;
     }
+
     .time {
       font-family: Arial;
       margin-top: 10px;
@@ -3628,11 +3577,13 @@ body {
       line-height: 14px;
       letter-spacing: 0.005em;
       color: #9D9D9D;
+
       span {
         margin-left: 5px;
       }
     }
   }
+
   .list-item-news-media {
     .item-media {
       position: relative;
@@ -3745,7 +3696,7 @@ body {
       width: 100px;
     }
   }
-  .video-sapo  {
+  .video-sapo {
     video[poster] {
       height: 640px !important;
       width: 100%;
@@ -3900,7 +3851,7 @@ body {
       }
     }
   }
-  .video-sapo  {
+  .video-sapo {
     video[poster] {
       height: 490px !important;
       width: 100%;
@@ -4139,17 +4090,18 @@ body {
       }
     }
   }
-  .content-news-thumb , .content-news-media{
+  .content-news-thumb, .content-news-media {
     .paginate {
       .back-to-page, .next-page {
         padding: 5px 10px;
+
         a {
           font-size: 12px;
         }
       }
     }
   }
-  .video-sapo  {
+  .video-sapo {
     video[poster] {
       height: 380px !important;
       width: 100%;
@@ -4163,13 +4115,15 @@ body {
         }
       }
     }
+
     .content-video-sapo {
       padding: 10px;
     }
   }
 }
+
 @media (max-width: 425px) {
-  .video-sapo  {
+  .video-sapo {
     video[poster] {
       height: 100% !important;
       width: 100%;
@@ -4178,12 +4132,14 @@ body {
 }
 
 @media (max-width: 375px) {
-  .content-news-thumb , .content-news-media{
+  .content-news-thumb, .content-news-media {
     .paginate {
       .back-to-page, .next-page {
         padding: 5px 10px;
+
         a {
           font-size: 10px;
+
           i {
             margin-left: 4px;
             font-size: 9px;

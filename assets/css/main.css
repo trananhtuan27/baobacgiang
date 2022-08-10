@@ -332,62 +332,10 @@ body {
 .section_header_wapper {
   padding-top: 15px; }
   .section_header_wapper .header_wapper {
-    display: flex; }
-    .section_header_wapper .header_wapper .header_wapper_left {
-      height: 90px;
-      padding-left: 0px;
-      margin: 0 auto; }
-      .section_header_wapper .header_wapper .header_wapper_left .ButtonImage {
-        background-repeat: no-repeat;
-        cursor: pointer;
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle; }
-      .section_header_wapper .header_wapper .header_wapper_left .btnLogo_1 {
-        background: url("../image/icon-bbg-2.png") no-repeat scroll;
-        height: 86%;
-        left: 0px;
-        position: absolute;
-        width: 6.5%;
-        z-index: 200;
-        border-right: 1px solid #dcdddeb5;
-        bottom: 6px; }
-      .section_header_wapper .header_wapper .header_wapper_left .btnLogo_2 {
-        background: url("../image/logobbg.png") no-repeat scroll;
-        height: 100%;
-        left: 92px;
-        position: absolute;
-        top: 0px;
-        width: 26%;
-        z-index: 200; }
-      .section_header_wapper .header_wapper .header_wapper_left .btnLogo-fonttex-1 {
-        font-family: Helvetica-Font;
-        height: 17%;
-        position: absolute;
-        bottom: 0px;
-        width: 22%;
-        left: 93px;
-        font-size: 7.8px;
-        color: #000;
-        line-height: 1.7;
-        letter-spacing: .38px;
-        font-weight: bold;
-        text-align: left;
-        z-index: 201; }
-      .section_header_wapper .header_wapper .header_wapper_left .btnLogo-fonttex-2 {
-        font-family: Helvetica-Font;
-        height: 18%;
-        position: absolute;
-        bottom: -10px;
-        width: 22%;
-        left: 93px;
-        font-size: 7.8px;
-        color: #000;
-        line-height: 1.7;
-        letter-spacing: 0.32px;
-        font-weight: bold;
-        text-align: left;
-        z-index: 201; }
+    display: flex;
+    justify-content: space-between; }
+    .section_header_wapper .header_wapper .header_wapper_left a img {
+      width: auto; }
     .section_header_wapper .header_wapper .header_wapper_right .language, .section_header_wapper .header_wapper .header_wapper_right .parliamentary {
       text-align: end; }
       .section_header_wapper .header_wapper .header_wapper_right .language a, .section_header_wapper .header_wapper .header_wapper_right .language span, .section_header_wapper .header_wapper .header_wapper_right .parliamentary a, .section_header_wapper .header_wapper .header_wapper_right .parliamentary span {

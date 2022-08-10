@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e72e989-e47e-4b7f-a9fc-79053da4b716" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/assets/image/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-thumb.html" beforeDir="false" afterPath="$PROJECT_DIR$/news-thumb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/news-video.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="news" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CBqCe5eIeIH3jsmoqyNU4pLiz8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/var/www/html/bao-bac-giang/bbg-vi/baobacgiang/assets/image",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/image" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e72e989-e47e-4b7f-a9fc-79053da4b716" name="Changes" comment="" />
+      <created>1658286199541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658286199541</updated>
+      <workItem from="1658286200648" duration="1324000" />
+      <workItem from="1658291332937" duration="8610000" />
+      <workItem from="1658311370691" duration="335000" />
+      <workItem from="1658312432249" duration="1695000" />
+      <workItem from="1658329264263" duration="21000" />
+      <workItem from="1658370617009" duration="6785000" />
+      <workItem from="1658379309472" duration="1214000" />
+      <workItem from="1658386731552" duration="13956000" />
+      <workItem from="1658455618892" duration="3532000" />
+      <workItem from="1658472086694" duration="10000" />
+      <workItem from="1658473401031" duration="2152000" />
+      <workItem from="1658480428933" duration="6880000" />
+      <workItem from="1658570450330" duration="648000" />
+      <workItem from="1658645871882" duration="701000" />
+      <workItem from="1658714914045" duration="11356000" />
+      <workItem from="1658730589332" duration="15000" />
+      <workItem from="1658741770310" duration="2182000" />
+      <workItem from="1658745730863" duration="1635000" />
+      <workItem from="1658801335527" duration="1266000" />
+      <workItem from="1658804483027" duration="834000" />
+      <workItem from="1658823058257" duration="9185000" />
+      <workItem from="1658887928518" duration="4229000" />
+      <workItem from="1658975689770" duration="1046000" />
+      <workItem from="1659063488247" duration="20538000" />
+      <workItem from="1659146659126" duration="9000" />
+      <workItem from="1659319536283" duration="14699000" />
+      <workItem from="1659339834748" duration="2944000" />
+      <workItem from="1659347625534" duration="460000" />
+      <workItem from="1659412844351" duration="16259000" />
+      <workItem from="1659492391944" duration="3970000" />
+      <workItem from="1659498288249" duration="14195000" />
+      <workItem from="1659579165057" duration="2771000" />
+      <workItem from="1659586983348" duration="6821000" />
+      <workItem from="1659599028728" duration="4743000" />
+      <workItem from="1659932677770" duration="71000" />
+      <workItem from="1660107618150" duration="1048000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1659603511291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659603511291</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+</project>
